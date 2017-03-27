@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item component renders correctly 1`] = `
+<View
+  onMoveShouldSetResponder={[Function]}
+  onMoveShouldSetResponderCapture={[Function]}
+  onResponderEnd={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderReject={[Function]}
+  onResponderRelease={[Function]}
+  onResponderStart={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  onStartShouldSetResponderCapture={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgba(255, 255, 255, 1)",
+      "borderLeftWidth": 0,
+      "borderRightWidth": 0,
+      "borderTopWidth": 0,
+      "borderWidth": 2,
+      "height": 40,
+      "paddingLeft": 10,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "fontSize": 25,
+      }
+    }
+  />
+</View>
+`;

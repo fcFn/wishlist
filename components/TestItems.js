@@ -1,0 +1,37 @@
+// Test items for end 2 end testing.
+
+const items = [
+  {name: 'Item#0', done: false},
+  {name: 'Item#1', done: false},
+  {name: 'Item#2', done: false},
+  {name: 'Item#3', done: false},
+  {name: 'Item#4', done: false},
+  {name: 'Item#5', done: false},
+  {name: 'Item#6', done: false},
+  {name: 'Item#7', done: false},
+  {name: 'Item#8', done: false},
+  {name: 'Item#9', done: false},
+  {name: 'Item#10', done: false},
+  {name: 'Item#11', done: false},
+  {name: 'Item#12', done: false},
+  {name: 'Item#13', done: false},
+  {name: 'Item#14', done: false},
+  {name: 'Item#15', done: false},
+  {name: 'Item#16', done: false},
+  {name: 'Item#17', done: false},
+  {name: 'Item#18', done: false},
+  {name: 'Item#19', done: false},
+  {name: 'Item#20', done: false},
+  {name: 'Item#21', done: false},
+  {name: 'Item#22', done: false},
+  {name: 'Item#23', done: false},
+  {name: 'Item#24', done: false},
+  {name: 'Item#25', done: false},
+  {name: 'Item#26', done: false},
+  {name: 'Item#27', done: false},
+  {name: 'Item#28', done: false},
+  {name: 'Item#29', done: false},
+  {name: 'Item#30', done: false},
+];
+
+module.exports = items;

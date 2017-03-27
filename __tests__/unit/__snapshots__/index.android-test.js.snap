@@ -1,0 +1,623 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Root component renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+        "overflow": "hidden",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    onMoveShouldSetResponder={[Function]}
+    onMoveShouldSetResponderCapture={[Function]}
+    onResponderEnd={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderReject={[Function]}
+    onResponderRelease={[Function]}
+    onResponderStart={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "flex": 1,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      collapsable={false}
+      onStartShouldSetResponderCapture={[Function]}
+      pointerEvents="auto"
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+              Object {
+                "translateY": 0,
+              },
+              Object {
+                "scaleX": 1,
+              },
+              Object {
+                "scaleY": 1,
+              },
+              Object {
+                "rotate": "0deg",
+              },
+              Object {
+                "skewX": "0deg",
+              },
+              Object {
+                "skewY": "0deg",
+              },
+            ],
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#F5FCFF",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Modal
+          animationType="none"
+          hardwareAccelerated={false}
+          onRequestClose={[Function]}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgba(0,0,0,0.5)",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "white",
+                  "marginTop": 7,
+                  "width": 340,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                    "lineHeight": 15,
+                    "padding": 10,
+                    "paddingTop": 5,
+                  }
+                }
+              >
+                Welcome back to Wishlist! Haven't seen you in a long time. Let me remind you how to use the app.
+                
+                
+                To add an item, press the ⊕ button at the bottom of the list.
+                
+                
+                To remove an item, swipe it to the left.
+                
+                
+                To edit an item, press it and hold.
+                
+                
+                To show additional options, press and hold the ⊕ button.
+                
+                
+                Additional options:
+                
+                
+                Generate QR: generates a QR Code from the current list.
+                
+                
+                Read QR: reads a QR Code generated in Wishlist and creates a list out of it.
+                
+                
+                Load list: loads a previously saved list.
+                
+                
+                Save list: saves the current list, overwriting the previously saved list.
+                
+                
+                New list: creates a new list.
+                
+                
+                Help: shows this window.
+              </Text>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#ffbcbc",
+                      "borderColor": "red",
+                      "borderWidth": 1,
+                      "height": 100,
+                      "justifyContent": "center",
+                      "margin": 10,
+                      "width": 300,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#333333",
+                      "margin": 20,
+                    }
+                  }
+                >
+                  TouchableNativeFeedback is not supported on this platform!
+                </Text>
+              </View>
+            </View>
+          </View>
+        </Modal>
+        <Modal
+          animationType="none"
+          hardwareAccelerated={false}
+          onRequestClose={[Function]}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onLayout={undefined}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "rgba(0,0,0,0.5)",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+            testID={undefined}
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "white",
+                  "marginTop": 10,
+                  "width": 300,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#ffbcbc",
+                      "borderColor": "red",
+                      "borderWidth": 1,
+                      "height": 100,
+                      "justifyContent": "center",
+                      "margin": 10,
+                      "width": 300,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#333333",
+                      "margin": 20,
+                    }
+                  }
+                >
+                  TouchableNativeFeedback is not supported on this platform!
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#ffbcbc",
+                      "borderColor": "red",
+                      "borderWidth": 1,
+                      "height": 100,
+                      "justifyContent": "center",
+                      "margin": 10,
+                      "width": 300,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#333333",
+                      "margin": 20,
+                    }
+                  }
+                >
+                  TouchableNativeFeedback is not supported on this platform!
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#ffbcbc",
+                      "borderColor": "red",
+                      "borderWidth": 1,
+                      "height": 100,
+                      "justifyContent": "center",
+                      "margin": 10,
+                      "width": 300,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#333333",
+                      "margin": 20,
+                    }
+                  }
+                >
+                  TouchableNativeFeedback is not supported on this platform!
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#ffbcbc",
+                      "borderColor": "red",
+                      "borderWidth": 1,
+                      "height": 100,
+                      "justifyContent": "center",
+                      "margin": 10,
+                      "width": 300,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#333333",
+                      "margin": 20,
+                    }
+                  }
+                >
+                  TouchableNativeFeedback is not supported on this platform!
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#ffbcbc",
+                      "borderColor": "red",
+                      "borderWidth": 1,
+                      "height": 100,
+                      "justifyContent": "center",
+                      "margin": 10,
+                      "width": 300,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#333333",
+                      "margin": 20,
+                    }
+                  }
+                >
+                  TouchableNativeFeedback is not supported on this platform!
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#ffbcbc",
+                      "borderColor": "red",
+                      "borderWidth": 1,
+                      "height": 100,
+                      "justifyContent": "center",
+                      "margin": 10,
+                      "width": 300,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#333333",
+                      "margin": 20,
+                    }
+                  }
+                >
+                  TouchableNativeFeedback is not supported on this platform!
+                </Text>
+              </View>
+            </View>
+          </View>
+        </Modal>
+        <RCTScrollView
+          dataSource={
+            ListViewDataSource {
+              "items": 1,
+            }
+          }
+          initialListSize={1}
+          onMoveShouldSetResponder={[Function]}
+          onMoveShouldSetResponderCapture={[Function]}
+          onResponderEnd={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderReject={[Function]}
+          onResponderRelease={[Function]}
+          onResponderStart={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onStartShouldSetResponderCapture={[Function]}
+          removeClippedSubviews={false}
+          renderRow={[Function]}
+          renderScrollComponent={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <View>
+            <View
+              onMoveShouldSetResponder={[Function]}
+              onMoveShouldSetResponderCapture={[Function]}
+              onResponderEnd={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderReject={[Function]}
+              onResponderRelease={[Function]}
+              onResponderStart={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              onStartShouldSetResponderCapture={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(255, 255, 255, 1)",
+                  "borderLeftWidth": 0,
+                  "borderRightWidth": 0,
+                  "borderTopWidth": 0,
+                  "borderWidth": 2,
+                  "height": 40,
+                  "paddingLeft": 10,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "fontSize": 25,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </RCTScrollView>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#ffbcbc",
+                  "borderColor": "red",
+                  "borderWidth": 1,
+                  "height": 100,
+                  "justifyContent": "center",
+                  "margin": 10,
+                  "width": 300,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#333333",
+                  "margin": 20,
+                }
+              }
+            >
+              TouchableNativeFeedback is not supported on this platform!
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Root component renders with Edit item scene 1`] = `
+<View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    Editing item
+     
+    TestItem
+  </Text>
+  <View>
+    <TextInput
+      accessibilityLabel="AddEditItemTextInput"
+      autoCapitalize="sentences"
+      autoFocus={true}
+      defaultValue="TestItem"
+      onSubmitEditing={[Function]}
+      selectTextOnFocus={true}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "color": "black",
+          "height": 45,
+        }
+      }
+      testID="AddEditItemTextInput"
+    />
+  </View>
+</View>
+`;
+
+exports[`Root component renders with Read QRCode scene 1`] = `null`;
+
+exports[`Root component renders with ShowQR Code scene 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Image
+    accessibilityLabel="QRImage"
+    resizeMode="contain"
+    source={
+      Object {
+        "uri": "file:///qr.png?1",
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+        "margin": 3,
+      }
+    }
+    testID="QRImage"
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "bottom": 35,
+        "fontSize": 25,
+      }
+    }
+  >
+    Note: if you can't read the QR Code, your screen resolution and/or size may be too low for a list of this size
+  </Text>
+</View>
+`;

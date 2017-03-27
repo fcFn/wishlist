@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List of items renders correctly 1`] = `
+<RCTScrollView
+  dataSource={
+    ListViewDataSource {
+      "items": 1,
+    }
+  }
+  initialListSize={undefined}
+  onMoveShouldSetResponder={[Function]}
+  onMoveShouldSetResponderCapture={[Function]}
+  onResponderEnd={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderReject={[Function]}
+  onResponderRelease={[Function]}
+  onResponderStart={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  onStartShouldSetResponderCapture={[Function]}
+  removeClippedSubviews={false}
+  renderRow={[Function]}
+  renderScrollComponent={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      onMoveShouldSetResponder={[Function]}
+      onMoveShouldSetResponderCapture={[Function]}
+      onResponderEnd={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderReject={[Function]}
+      onResponderRelease={[Function]}
+      onResponderStart={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onStartShouldSetResponderCapture={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 1)",
+          "borderLeftWidth": 0,
+          "borderRightWidth": 0,
+          "borderTopWidth": 0,
+          "borderWidth": 2,
+          "height": 40,
+          "paddingLeft": 10,
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 25,
+          }
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;

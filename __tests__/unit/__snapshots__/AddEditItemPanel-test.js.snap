@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item adding and editing input component renders correctly 1`] = `
+<View>
+  <TextInput
+    accessibilityLabel="AddEditItemTextInput"
+    autoCapitalize="sentences"
+    autoFocus={true}
+    defaultValue={undefined}
+    onSubmitEditing={undefined}
+    selectTextOnFocus={true}
+    style={undefined}
+    testID="AddEditItemTextInput"
+  />
+</View>
+`;

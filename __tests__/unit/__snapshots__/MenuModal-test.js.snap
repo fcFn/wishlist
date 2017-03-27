@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu modal window renders correctly 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  onRequestClose={undefined}
+  transparent={true}
+  visible={true}
+>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(0,0,0,0.5)",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+    testID={undefined}
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "white",
+          "marginTop": 10,
+          "width": 300,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffbcbc",
+              "borderColor": "red",
+              "borderWidth": 1,
+              "height": 100,
+              "justifyContent": "center",
+              "margin": 10,
+              "width": 300,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#333333",
+              "margin": 20,
+            }
+          }
+        >
+          TouchableNativeFeedback is not supported on this platform!
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffbcbc",
+              "borderColor": "red",
+              "borderWidth": 1,
+              "height": 100,
+              "justifyContent": "center",
+              "margin": 10,
+              "width": 300,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#333333",
+              "margin": 20,
+            }
+          }
+        >
+          TouchableNativeFeedback is not supported on this platform!
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffbcbc",
+              "borderColor": "red",
+              "borderWidth": 1,
+              "height": 100,
+              "justifyContent": "center",
+              "margin": 10,
+              "width": 300,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#333333",
+              "margin": 20,
+            }
+          }
+        >
+          TouchableNativeFeedback is not supported on this platform!
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffbcbc",
+              "borderColor": "red",
+              "borderWidth": 1,
+              "height": 100,
+              "justifyContent": "center",
+              "margin": 10,
+              "width": 300,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#333333",
+              "margin": 20,
+            }
+          }
+        >
+          TouchableNativeFeedback is not supported on this platform!
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffbcbc",
+              "borderColor": "red",
+              "borderWidth": 1,
+              "height": 100,
+              "justifyContent": "center",
+              "margin": 10,
+              "width": 300,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#333333",
+              "margin": 20,
+            }
+          }
+        >
+          TouchableNativeFeedback is not supported on this platform!
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffbcbc",
+              "borderColor": "red",
+              "borderWidth": 1,
+              "height": 100,
+              "justifyContent": "center",
+              "margin": 10,
+              "width": 300,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#333333",
+              "margin": 20,
+            }
+          }
+        >
+          TouchableNativeFeedback is not supported on this platform!
+        </Text>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

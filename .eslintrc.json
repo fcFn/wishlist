@@ -1,0 +1,38 @@
+{
+  "extends": "google",
+  "installedESLint": true,
+  "env": {
+    "node": true,
+    "jquery": true,
+    "browser": true,
+    "es6": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "rules": {
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "require-jsdoc": "off",
+    "indent": [
+      "warn",
+      2
+    ],
+    "max-len": [
+      "warn"
+    ],
+    "arrow-body-style": [
+      "error",
+      "as-needed",
+      {
+        "requireReturnForObjectLiteral": true
+      }
+    ]
+  }
+}
